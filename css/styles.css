@@ -1,6 +1,3 @@
-
-
-
 /** @format */
 p,
 h1,
@@ -45,7 +42,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 2px solid red;
+  
 }
 .header_container {
   display: flex;
@@ -79,6 +76,8 @@ body {
 }
 .header-item {
   margin-right: 40px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 .header-link {
   font-weight: 500;
@@ -245,7 +244,6 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 .content-foto {
-
   
 }
 .content-subtitle {
@@ -257,10 +255,9 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #2e2f42;
-
 }
 .content-text {
- 
+  margin-top: 8px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -270,8 +267,8 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
   
-  
 }
+
 /* footer  */
 .footer {
   background: #2e2f42;
@@ -280,6 +277,7 @@ body {
 }
 
 .footer-logo {
+  margin-top: 100px;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -294,12 +292,15 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  width: 264px;
+  height: 72px;
 }
 .span_logo {
   color: #f4f4fd;
 }
 
 /* portfolio */
+
 
 .btn {
   font-family: "Roboto", sans-serif;
@@ -317,14 +318,12 @@ body {
   color: #ffffff;
 }
 .content-list {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 24px;
+ 
 }
 
 .products-item {
+  border: 1px solid  #E7E9FC;
+border-top: none;
 }
 
 .products-subtitle {
@@ -339,11 +338,31 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  
 }
 .button_list {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
   padding: 0px;
   gap: 24px;
+  padding: 12px 24px;
+border-radius: 4px;
+
+
+
+
+}
+
+.conteiner_content{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  
+}
+.name_position{
+  border: 1pc solid  #FFFFFF;
+  border-top: none;
+margin-top: 32px;
 }
