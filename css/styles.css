@@ -373,20 +373,23 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 4px;
+  
+  margin: 0;
 }
 .products-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-top: 4px;
+  padding-top: 4px;
+  margin: 0;
 }
 
 .conteiner_content {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  padding-bottom: 120px;
 }
 .name_position {
   display: flex;
