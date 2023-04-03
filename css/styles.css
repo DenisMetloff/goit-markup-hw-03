@@ -42,7 +42,6 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  
 }
 .header_container {
   display: flex;
@@ -244,7 +243,6 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 .content-foto {
-  
 }
 .content-subtitle {
   font-family: "Roboto";
@@ -266,7 +264,6 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #434455;
-  
 }
 
 /* footer  */
@@ -301,7 +298,6 @@ body {
 
 /* portfolio */
 
-
 .btn {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -316,14 +312,15 @@ body {
 .btn:focus {
   background-color: #404bbf;
   color: #ffffff;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .content-list {
- 
 }
 
 .products-item {
-  border: 1px solid  #E7E9FC;
-border-top: none;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .products-subtitle {
@@ -338,7 +335,6 @@ border-top: none;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  
 }
 .button_list {
   display: flex;
@@ -348,21 +344,16 @@ border-top: none;
   padding: 0px;
   gap: 24px;
   padding: 12px 24px;
-border-radius: 4px;
-
-
-
-
+  border-radius: 4px;
 }
 
-.conteiner_content{
+.conteiner_content {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-  
 }
-.name_position{
-  border: 1pc solid  #FFFFFF;
+.name_position {
+  border: 1pc solid #ffffff;
   border-top: none;
-margin-top: 32px;
+  margin-top: 32px;
 }
