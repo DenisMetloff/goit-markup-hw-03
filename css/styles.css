@@ -72,6 +72,8 @@ body {
 }
 .header-list {
   display: flex;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 .header-item {
   margin-right: 40px;
@@ -253,6 +255,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 4px;
 }
 .content-text {
   margin-top: 8px;
@@ -264,6 +267,15 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #434455;
+  margin-top: 4px;
+}
+.name-position {
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 8px;
 }
 
 /* footer  */
@@ -329,12 +341,14 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 4px;
 }
 .products-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  margin-top: 4px;
 }
 .button_list {
   display: flex;
@@ -353,7 +367,10 @@ body {
   gap: 24px;
 }
 .name_position {
-  border: 1pc solid #ffffff;
-  border-top: none;
-  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px 16px;
+  gap: 8px;
 }
