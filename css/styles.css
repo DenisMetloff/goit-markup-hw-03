@@ -38,7 +38,7 @@ img {
 body {
   font-family: open sans, sans-serif;
   font-family: "Roboto", sans-serif;
-  color: #434455;
+  color: var(--header-info);
   background-color: var(--white);
   margin: 0;
 }
