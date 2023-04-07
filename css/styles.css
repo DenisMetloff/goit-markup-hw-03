@@ -104,8 +104,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--grey);
 }
-.header-link:hover {
-}
+.header-link:hover ,
 .header-link:focus {
   color: var(--hover_blue);
 }
